@@ -1,6 +1,6 @@
 {
   "name": "ngx-monaco-editor",
-  "version": "12.0.0",
+  "version": "14.0.0",
   "private": false,
   "description": "Monaco Code Editor for Angular",
   "keywords": [
@@ -15,6 +15,8 @@
     "angular 9",
     "angular 10",
     "angular 12",
+    "angular 13",
+    "angular 14",
     "monaco",
     "monaco-editor",
     "code",
@@ -24,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/atularen/ngx-monaco-editor.git"
+    "url": "https://github.com/nezhar/ngx-monaco-editor.git"
   },
   "bugs": {
     "url": "https://github.com/atularen/ngx-monaco-editor/issues"
@@ -41,5 +43,8 @@
   },
   "dependencies": {
     "tslib": "^2.1.0"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
